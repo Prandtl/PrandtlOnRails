@@ -1,4 +1,11 @@
 GIT
+  remote: git://github.com/capistrano/passenger.git
+  revision: 223bf12f06c79febabba61ef24eb3752ee8e8f5c
+  specs:
+    capistrano-passenger (0.2.0)
+      capistrano (~> 3.0)
+
+GIT
   remote: git://github.com/capistrano/rbenv.git
   revision: 6f1216cfe0a6b4ac23ca4eaf8acf012e8165d247
   specs:
@@ -168,6 +175,7 @@ DEPENDENCIES
   byebug
   capistrano (~> 3.1.0)
   capistrano-bundler (~> 1.1.2)
+  capistrano-passenger!
   capistrano-rails (~> 1.1.1)
   capistrano-rbenv!
   coffee-rails (~> 4.1.0)
